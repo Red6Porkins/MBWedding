@@ -1,0 +1,14 @@
+﻿body,html,#PageContainer {
+    height: 100%;
+}
+
+#PageContainer > .row {
+    height: 100%;
+}
+
+#PageContainer > .row > .LeftSide {
+    height: 100%;
+    background: red;
+}
+
+
