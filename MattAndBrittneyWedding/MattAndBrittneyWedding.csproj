@@ -102,7 +102,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\assets\img\slide1.jpg" />
+    <Content Include="app\assets\img\slide2.jpg" />
+    <Content Include="app\assets\img\slide3.jpg" />
     <Content Include="app\assets\vendorcss\ui-bootstrap-csp.css" />
+    <Content Include="app\shared\sidebar\sidebar.html" />
+    <Content Include="app\shared\sidebar\sidebar.js" />
     <Content Include="packages.config" />
     <Content Include="app\assets\vendorscripts\angular\version.json" />
     <Content Include="app\assets\vendorscripts\angular\errors.json" />
@@ -924,7 +929,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="app\assets\img\" />
     <Folder Include="app\assets\scripts\" />
   </ItemGroup>
   <PropertyGroup>

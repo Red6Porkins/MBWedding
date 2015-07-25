@@ -1,6 +1,6 @@
 ﻿angular.module("mbsite")
-.controller("homeController", function ($scope) {
+.controller("homeController", ['$scope', function ($scope) {
 
     $scope.test = "hello world";
 
-});
+}]);
