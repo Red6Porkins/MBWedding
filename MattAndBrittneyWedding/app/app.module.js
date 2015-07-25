@@ -1,5 +1,6 @@
 ﻿angular.module('mbsite', [
-    'ngRoute'
+    'ngRoute',
+    'ui.bootstrap'
 ])
 .config(function ($routeProvider) {
     $routeProvider

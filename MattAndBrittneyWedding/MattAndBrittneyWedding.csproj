@@ -102,6 +102,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\assets\vendorcss\ui-bootstrap-csp.css" />
     <Content Include="packages.config" />
     <Content Include="app\assets\vendorscripts\angular\version.json" />
     <Content Include="app\assets\vendorscripts\angular\errors.json" />
@@ -909,6 +910,10 @@
     <Content Include="app\assets\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="app\assets\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="app\assets\vendorcss\bootstrap.css.map" />
+    <Content Include="app\assets\vendorscripts\angular-ui\ui-bootstrap-tpls.js" />
+    <Content Include="app\assets\vendorscripts\angular-ui\ui-bootstrap-tpls.min.js" />
+    <Content Include="app\assets\vendorscripts\angular-ui\ui-bootstrap.js" />
+    <Content Include="app\assets\vendorscripts\angular-ui\ui-bootstrap.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -938,6 +943,8 @@
           <DevelopmentServerPort>47800</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:47800/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:47800/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
