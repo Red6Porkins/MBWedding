@@ -11,6 +11,7 @@ namespace MattAndBrittneyWedding.App_Start
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
                       "~/app/assets/vendorscripts/angular/angular.min.js",
                       "~/app/assets/vendorscripts/angular/angular-route.min.js",
+                      "~/app/assets/vendorscripts/angular/angular-animate.min.js",
                       "~/app/assets/vendorscripts/angular-ui/ui-bootstrap-tpls.min.js", 
                       "~/app/app.module.js"
                       ));
