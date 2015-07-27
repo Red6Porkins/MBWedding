@@ -102,46 +102,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\assets\css\zresponsive.css" />
+    <Content Include="app\assets\img\home-heasked.jpg" />
     <Content Include="app\assets\img\slide1.jpg" />
     <Content Include="app\assets\img\slide2.jpg" />
     <Content Include="app\assets\img\slide3.jpg" />
+    <Content Include="app\assets\img\slide4.jpg" />
+    <Content Include="app\assets\img\wood-texture.jpg" />
     <Content Include="app\assets\vendorcss\ui-bootstrap-csp.css" />
+    <Content Include="app\assets\vendorscripts\angular-timer.min.js" />
+    <Content Include="app\assets\vendorscripts\humanize-duration.js" />
+    <Content Include="app\assets\vendorscripts\moment.min.js" />
     <Content Include="app\shared\sidebar\sidebar.html" />
     <Content Include="app\shared\sidebar\sidebar.js" />
     <Content Include="packages.config" />
-    <Content Include="app\assets\vendorscripts\angular\version.json" />
-    <Content Include="app\assets\vendorscripts\angular\errors.json" />
-    <Content Include="app\assets\vendorscripts\angular\angular-touch.min.js.map" />
-    <Content Include="app\assets\vendorscripts\angular\angular-sanitize.min.js.map" />
-    <Content Include="app\assets\vendorscripts\angular\angular-route.min.js.map" />
-    <Content Include="app\assets\vendorscripts\angular\angular-resource.min.js.map" />
-    <Content Include="app\assets\vendorscripts\angular\angular-messages.min.js.map" />
-    <Content Include="app\assets\vendorscripts\angular\angular-message-format.min.js.map" />
-    <Content Include="app\assets\vendorscripts\angular\angular-loader.min.js.map" />
-    <Content Include="app\assets\vendorscripts\angular\angular-cookies.min.js.map" />
-    <Content Include="app\assets\vendorscripts\angular\angular-aria.min.js.map" />
-    <Content Include="app\assets\vendorscripts\angular\angular-animate.min.js.map" />
-    <Content Include="app\assets\vendorscripts\angular\angular.min.js.map" />
     <Content Include="index.cshtml" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="app\app.module.js" />
-    <Content Include="app\assets\css\bootstrap-overrides.css" />
-    <Content Include="app\assets\css\generic.css" />
-    <Content Include="app\assets\css\reset.css" />
-    <Content Include="app\assets\css\site.css" />
-    <Content Include="app\assets\vendorcss\bootstrap.css" />
-    <Content Include="app\assets\vendorcss\bootstrap.min.css" />
-    <Content Include="app\assets\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="app\home\home.html" />
-    <Content Include="app\home\homeController.js" />
-    <Content Include="Global.asax" />
     <Content Include="app\assets\vendorscripts\angular\angular-animate.js" />
     <Content Include="app\assets\vendorscripts\angular\angular-animate.min.js" />
     <Content Include="app\assets\vendorscripts\angular\angular-aria.js" />
@@ -151,8 +126,6 @@
     <Content Include="app\assets\vendorscripts\angular\angular-csp.css" />
     <Content Include="app\assets\vendorscripts\angular\angular-loader.js" />
     <Content Include="app\assets\vendorscripts\angular\angular-loader.min.js" />
-    <Content Include="app\assets\vendorscripts\angular\angular-message-format.js" />
-    <Content Include="app\assets\vendorscripts\angular\angular-message-format.min.js" />
     <Content Include="app\assets\vendorscripts\angular\angular-messages.js" />
     <Content Include="app\assets\vendorscripts\angular\angular-messages.min.js" />
     <Content Include="app\assets\vendorscripts\angular\angular-mocks.js" />
@@ -910,6 +883,38 @@
     <Content Include="app\assets\vendorscripts\angular\i18n\angular-locale_zh.js" />
     <Content Include="app\assets\vendorscripts\angular\i18n\angular-locale_zu-za.js" />
     <Content Include="app\assets\vendorscripts\angular\i18n\angular-locale_zu.js" />
+    <Content Include="app\assets\vendorscripts\angular\version.json" />
+    <Content Include="app\assets\vendorscripts\angular\errors.json" />
+    <Content Include="app\assets\vendorscripts\angular\angular-touch.min.js.map" />
+    <Content Include="app\assets\vendorscripts\angular\angular-sanitize.min.js.map" />
+    <Content Include="app\assets\vendorscripts\angular\angular-route.min.js.map" />
+    <Content Include="app\assets\vendorscripts\angular\angular-resource.min.js.map" />
+    <Content Include="app\assets\vendorscripts\angular\angular-messages.min.js.map" />
+    <Content Include="app\assets\vendorscripts\angular\angular-loader.min.js.map" />
+    <Content Include="app\assets\vendorscripts\angular\angular-cookies.min.js.map" />
+    <Content Include="app\assets\vendorscripts\angular\angular-aria.min.js.map" />
+    <Content Include="app\assets\vendorscripts\angular\angular-animate.min.js.map" />
+    <Content Include="app\assets\vendorscripts\angular\angular.min.js.map" />
+    <None Include="Properties\PublishProfiles\Wedding.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\app.module.js" />
+    <Content Include="app\assets\css\bootstrap-overrides.css" />
+    <Content Include="app\assets\css\generic.css" />
+    <Content Include="app\assets\css\reset.css" />
+    <Content Include="app\assets\css\site.css" />
+    <Content Include="app\assets\vendorcss\bootstrap.css" />
+    <Content Include="app\assets\vendorcss\bootstrap.min.css" />
+    <Content Include="app\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="app\home\home.html" />
+    <Content Include="app\home\homeController.js" />
+    <Content Include="Global.asax" />
     <Content Include="app\assets\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="app\assets\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="app\assets\fonts\glyphicons-halflings-regular.ttf" />

@@ -1,7 +1,9 @@
 ﻿(function () {
     angular.module('mbsite', [
         'ngRoute',
-        'ui.bootstrap',        
+        'ui.bootstrap',
+        'ngAnimate',
+        'timer'
     ])
     .config(function ($routeProvider) {
         $routeProvider

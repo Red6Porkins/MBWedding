@@ -1,6 +1,8 @@
-﻿angular.module("mbsite")
-.controller("homeController", ['$scope', function ($scope) {
+﻿(function () {
+    angular.module("mbsite")
+    .controller("homeController", ['$scope', function ($scope) {
 
-    $scope.test = "hello world";
+        $scope.test = "hello world";
 
-}]);
+    }]);
+})();
