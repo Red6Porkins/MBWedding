@@ -10,11 +10,14 @@
 
     @Scripts.Render("~/bundles/angular")
     @Scripts.Render("~/bundles/controllers")
+    @Scripts.Render("~/bundles/directives")
 </head>
 <body ng-app="mbsite">
     <div id="PageContainer" class="container-fluid">
         <div class="row">
-            <div class="LeftSide col-sm-3 hidden-xs"></div>
+            <div class="LeftSide col-sm-3 hidden-xs">
+                <sidebar></sidebar>
+            </div>
             <div class="col-sm-9 col-xs-12">
                 <ng-view></ng-view>
             </div>

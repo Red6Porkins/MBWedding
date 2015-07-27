@@ -10,7 +10,9 @@ namespace MattAndBrittneyWedding.App_Start
         {
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
                       "~/app/assets/vendorscripts/angular/angular.min.js",
-                      "~/app/assets/vendorscripts/angular/angular-route.min.js", 
+                      "~/app/assets/vendorscripts/angular/angular-route.min.js",
+                      "~/app/assets/vendorscripts/angular/angular-animate.min.js",
+                      "~/app/assets/vendorscripts/angular-ui/ui-bootstrap-tpls.min.js", 
                       "~/app/app.module.js"
                       ));
 
@@ -18,8 +20,13 @@ namespace MattAndBrittneyWedding.App_Start
                       "~/app/home/homeController.js"
                       ));
 
+            bundles.Add(new ScriptBundle("~/bundles/directives").Include(
+                      "~/app/shared/sidebar/sidebar.js"
+                      ));
+
             bundles.Add(new StyleBundle("~/bundles/bootstrap").Include(
-                      "~/app/assets/vendorcss/bootstrap.min.css"
+                      "~/app/assets/vendorcss/bootstrap.min.css",
+                      "~/app/assets/vendorcss/ui-bootstrap-csp.css"
                       ));
 
             bundles.Add(new StyleBundle("~/bundles/css").Include(

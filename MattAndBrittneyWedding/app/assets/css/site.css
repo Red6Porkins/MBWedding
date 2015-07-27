@@ -8,7 +8,11 @@
 
 #PageContainer > .row > .LeftSide {
     height: 100%;
-    background: red;
+    background: #000;
+}
+
+.carousel-control, .carousel-indicators {
+    display: none;
 }
 
 
