@@ -12,7 +12,10 @@ namespace MattAndBrittneyWedding.App_Start
                       "~/app/assets/vendorscripts/angular/angular.min.js",
                       "~/app/assets/vendorscripts/angular/angular-route.min.js",
                       "~/app/assets/vendorscripts/angular/angular-animate.min.js",
-                      "~/app/assets/vendorscripts/angular-ui/ui-bootstrap-tpls.min.js", 
+                      "~/app/assets/vendorscripts/angular-ui/ui-bootstrap-tpls.min.js",
+                      "~/app/assets/vendorscripts/angular-timer.min.js",
+                      "~/app/assets/vendorscripts/humanize-duration.js",
+                      "~/app/assets/vendorscripts/moment.min.js", 
                       "~/app/app.module.js"
                       ));
 
@@ -21,7 +24,7 @@ namespace MattAndBrittneyWedding.App_Start
                       ));
 
             bundles.Add(new ScriptBundle("~/bundles/directives").Include(
-                      "~/app/shared/sidebar/sidebar.js"
+                     "~/app/shared/sidebar/sidebar.js"
                       ));
 
             bundles.Add(new StyleBundle("~/bundles/bootstrap").Include(

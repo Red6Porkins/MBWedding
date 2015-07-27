@@ -7,6 +7,9 @@
 
     @Styles.Render("~/bundles/bootstrap")
     @Styles.Render("~/bundles/css")
+    <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Cinzel+Decorative|Macondo' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700,700italic' rel='stylesheet' type='text/css'>
 
     @Scripts.Render("~/bundles/angular")
     @Scripts.Render("~/bundles/controllers")
@@ -15,13 +18,25 @@
 <body ng-app="mbsite">
     <div id="PageContainer" class="container-fluid">
         <div class="row">
-            <div class="LeftSide col-sm-3 hidden-xs">
+            <div class="LeftSide col-md-3 hidden-sm hidden-xs">
+                <div class="SideNav">
+                    <h1> B + M </h1>
+                    <ul>
+                        <li><a href="/home">Our Story</a></li>
+                        <li><a href="/gallery">Gallery</a></li>
+                        <li><a href="/weddingparty">Wedding Party</a></li>
+                        <li><a href="/info">Wedding Info</a></li>
+                        <li><a href="/gifts">Gifts</a></li>
+                        <li><a href="/guestbook">Guestbook</a></li>
+                    </ul>
+                </div>
                 <sidebar></sidebar>
             </div>
-            <div class="col-sm-9 col-xs-12">
+            <div class="col-sm-12 MainCol col-xs-12 col-md-9">
                 <ng-view></ng-view>
             </div>
         </div>
     </div>
 </body>
 </html>
+

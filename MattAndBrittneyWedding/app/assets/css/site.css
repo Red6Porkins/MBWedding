@@ -1,18 +1,153 @@
-﻿body,html,#PageContainer {
-    height: 100%;
+﻿body, html {
+    background: url(../img/wood-texture.jpg) repeat;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-#PageContainer > .row {
-    height: 100%;
+#PageContainer {
+   overflow:hidden;
 }
 
 #PageContainer > .row > .LeftSide {
-    height: 100%;
-    background: #000;
+    padding: 0;
+    position: relative;
 }
 
 .carousel-control, .carousel-indicators {
     display: none;
 }
 
+.SideNav {
+    width: 60%;
+    margin: 0 auto;
+    background: rgba(231, 76, 60,.8);
+    min-height: 100px;
+    position: absolute;
+    left: 19%;
+    top: 0;
+    z-index: 9;
+    padding: 25px 5px 10px 5px;
+}
 
+
+.SideNav h1 {
+   font-family: 'Fredericka the Great', cursive;     
+   color: #fff;
+   font-size: 35px;
+   text-align: center;
+}
+
+.SideNav ul {
+    list-style: none;
+}
+
+.SideNav ul li {
+    text-align: center;
+}
+
+.SideNav ul li a {
+    color: #fff;
+    font-size: 25px;
+    border-top: 1px dashed #fff;
+    padding:10px 0;
+    display: block;
+    font-family: 'Macondo', cursive;
+    -webkit-transition-duration: 0.2s;
+	-moz-transition-duration: 0.2s;
+	-o-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+}
+
+.SideNav ul li:first-child a {
+    border: none;
+}
+
+.SideNav ul li a:hover {
+    text-decoration: none;
+    color: rgba(231, 76, 60,.8);
+    background: #fff;
+    -webkit-transition-duration: 0.2s;
+	-moz-transition-duration: 0.2s;
+	-o-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+}
+
+.MainCol {
+    background: #fff;
+}
+
+.HomeWelcome {
+    margin: 25px 0 0 0;
+}
+
+.HomeWelcome h1 {
+   font-family: 'Fredericka the Great', cursive;     
+   color: rgb(231, 76, 60);
+   font-size: 60px;
+   text-align: center;
+}
+
+.SmallAnd {
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+    color: rgb(142, 89, 54);
+}
+
+.HomeInvite {
+    text-transform: uppercase;
+    color: rgb(142, 89, 54);
+    font-size: 15px;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.HomeDate {
+    color: rgb(142, 89, 54);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Macondo', cursive;
+    margin-top: 7px;
+    text-align:center;
+}
+
+.HomeYear {
+    color: rgb(142, 89, 54);
+    font-size: 40px;
+    font-family: 'Fredericka the Great', cursive;  
+    margin-top: 7px;
+    text-align:center;
+}
+
+.HomeTime {
+    color: rgb(142, 89, 54);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Macondo', cursive;
+    margin-top: 7px;
+    text-align:center;
+}
+
+.HomeLocation {
+    color: rgb(142, 89, 54);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Fredericka the Great', cursive;  
+    margin-top: 7px;
+    text-align:center;
+}
+
+.HomeDance {
+    color: rgb(142, 89, 54);
+    font-size: 15px;  
+    font-family: 'Lobster', cursive;
+    margin-top: 7px;
+    text-align:center;
+}
+
+.HomeCountdown {
+    color: rgb(142, 89, 54);
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Fredericka the Great', cursive;  
+    margin-bottom:25px;
+}

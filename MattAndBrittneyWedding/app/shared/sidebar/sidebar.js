@@ -7,7 +7,7 @@
             controller: ['$scope', function ($scope) {
                 function BuildSlides() {
                     var slides = [];
-                    for (var i = 1; i < 4; i++) {
+                    for (var i = 1; i < 5; i++) {
                         slides.push({ image: '/app/assets/img/slide' + i + '.jpg' })
                     }
                     $scope.slides = slides;
