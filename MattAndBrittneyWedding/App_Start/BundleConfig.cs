@@ -25,7 +25,7 @@ namespace MattAndBrittneyWedding.App_Start
                       ));
 
             bundles.Add(new ScriptBundle("~/bundles/directives").Include(
-                     "~/app/shared/sidebar/sidebar.js"
+                     "~/app/home/homeSliderDirective.js"
                       ));
 
             bundles.Add(new StyleBundle("~/bundles/bootstrap").Include(

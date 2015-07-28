@@ -1,8 +1,8 @@
 ﻿(function () {
     angular.module('mbsite')
     .controller('pageController', ['$scope', function ($scope) {
-
-        $scope.menuOpen = false;
        
+        $scope.navbarCollapsed = true;
+
     }]);
 })();
