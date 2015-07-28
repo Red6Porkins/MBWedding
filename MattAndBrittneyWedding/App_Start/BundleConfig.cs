@@ -21,6 +21,7 @@ namespace MattAndBrittneyWedding.App_Start
 
             bundles.Add(new ScriptBundle("~/bundles/controllers").Include(
                       "~/app/home/homeController.js",
+                      "~/app/our-story/ourStoryController.js",
                       "~/app/shared/page/pageController.js"
                       ));
 

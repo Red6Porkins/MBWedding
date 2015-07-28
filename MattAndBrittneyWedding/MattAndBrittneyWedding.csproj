@@ -114,6 +114,8 @@
     <Content Include="app\assets\vendorscripts\angular-timer.min.js" />
     <Content Include="app\assets\vendorscripts\humanize-duration.js" />
     <Content Include="app\assets\vendorscripts\moment.min.js" />
+    <Content Include="app\our-story\ourStory.html" />
+    <Content Include="app\our-story\ourStoryController.js" />
     <Content Include="app\shared\page\pageController.js" />
     <Content Include="app\home\homeSliderDirective.html" />
     <Content Include="app\home\homeSliderDirective.js" />
