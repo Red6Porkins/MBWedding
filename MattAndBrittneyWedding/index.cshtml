@@ -16,10 +16,15 @@
     @Scripts.Render("~/bundles/directives")
 </head>
 <body ng-app="mbsite">
-    <div id="PageContainer" class="container-fluid">
+    <div id="PageContainer" class="container-fluid" ng-controller="pageController">
         <div class="row">
             <div class="LeftSide col-md-3 hidden-sm hidden-xs">
-                <div class="SideNav">
+                <div class="SideNavBars" ng-click="menuOpen = !menuOpen">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="SideNav nga-default nga-stagger nga-rotate-right" ng-hide="!menuOpen">
                     <h1> B + M </h1>
                     <ul>
                         <li><a href="/home">Our Story</a></li>
