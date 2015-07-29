@@ -3,6 +3,18 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
 #PageContainer {
    overflow:hidden;
 }
@@ -73,6 +85,10 @@
 	-moz-transition-duration: 0.2s;
 	-o-transition-duration: 0.2s;
 	transition-duration: 0.2s;
+}
+
+.SideNav ul li a:visited { 
+    text-decoration: none;
 }
 
 .MobileBar { 
