@@ -18,7 +18,6 @@
         $scope.imageLoaded = function (index) {
             // use timeout to simulate some time passing
             $timeout(function () {
-                console.log('loaded ', $scope.images[index]);
                 $scope.images[index].loaded = true;
 
                 $scope.isLoaded = ($scope.images.filter(function (obj, i) {
@@ -26,7 +25,7 @@
                 }).length == $scope.images.length);
 
                 if ($scope.isLoaded) {
-                    console.log("everything loaded");
+                    //console.log("everything loaded");
                 }
             }, index * 100);
         }

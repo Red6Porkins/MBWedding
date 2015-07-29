@@ -47,6 +47,11 @@
     .RCol20 {
         margin-top: 0;
     }
+
+     .Gallery div {
+        width: 32%;
+        margin-right: 1%;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -66,6 +71,11 @@
      #HomeSlider {
          max-height: 800px;
      }
+
+     .Gallery div {
+        width: 32%;
+        margin-right: 1%;
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -80,5 +90,10 @@
 
     .SideNav {
         width: 80%; 
+    }
+
+    .Gallery div {
+        width: 24%;
+        margin-right: 1%;
     }
 }

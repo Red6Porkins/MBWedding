@@ -4,7 +4,7 @@
         <div class="MarginTop10 CHR"></div>
         <div class="CHR"></div>
         <div class="MarginTop20 Gallery">
-            <h1 class="Frederick RedText" ng-show="!isLoaded">Loading Gallery...</h1>
+            <h1 class="Frederick RedText MarginBottom25" ng-show="!isLoaded">Loading Gallery...</h1>
             <div ng-repeat="image in images" ng-show="isLoaded">
                 <img ng-src="{{image.source}}" img-load="imageLoaded($index)" />
             </div>
