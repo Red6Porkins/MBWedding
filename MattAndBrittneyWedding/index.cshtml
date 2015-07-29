@@ -3,7 +3,10 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Matt and Brittney's Wedding</title>
+    <title>Matt + Brittney</title>
+
+    <link rel="shortcut icon" href="/app/assets/img/heart-icon.png" type="image/x-icon">
+    <link rel="icon" href="/app/assets/img/heart-icon.png" type="image/x-icon">
 
     @Styles.Render("~/bundles/bootstrap")
     @Styles.Render("~/bundles/css")
@@ -14,9 +17,11 @@
     @Scripts.Render("~/bundles/angular")
     @Scripts.Render("~/bundles/controllers")
     @Scripts.Render("~/bundles/directives")
+    @Scripts.Render("~/bundles/services")
+
 </head>
 <body ng-app="mbsite">
-    <div id="PageContainer" class="container-fluid" ng-controller="pageController">        
+    <div id="PageContainer" class="container-fluid" ng-controller="pageController">
         <div class="row">
             <div class="LeftSide col-md-2 hidden-sm hidden-xs">
                 <div class="SideNav">
@@ -32,12 +37,25 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-12 MainCol col-xs-12 col-md-9">
-                <div class="MobileBar visible-sm visible-xs">
+            <div class="col-sm-12 MainCol col-xs-12 col-md-9 MarginBottom50">
+                <div class="MobileBar visible-sm visible-xs nga-default nga-stagger nga-fade" ng-show="!mobileNav" ng-click="mobileNav = !mobileNav">
                     <div></div>
                     <div></div>
                     <div></div>
-                </div>               
+                </div>
+                <div class="MobileNav hidden-md hidden-lg nga-default nga-stagger nga-rotate-left" ng-show="mobileNav">
+                    <ul>
+                        <li><a href="javascript:;" ng-click="mobileNav = !mobileNav">Close <span class="glyphicon glyphicon-remove"></span></a></li>
+                        <li><a href="#/" ng-click="mobileNav = !mobileNav">Home</a></li>
+                        <li><a href="#/ourstory" ng-click="mobileNav = !mobileNav">Our Story</a></li>
+                        <li><a href="#/gallery" ng-click="mobileNav = !mobileNav">Gallery</a></li>
+                        <li><a href="#/weddingparty" ng-click="mobileNav = !mobileNav">Wedding Party</a></li>
+                        <li><a href="#/info" ng-click="mobileNav = !mobileNav">When & Where</a></li>
+                        <li><a href="#/lodging" ng-click="mobileNav = !mobileNav">Lodging</a></li>
+                        <li><a href="#/gifts" ng-click="mobileNav = !mobileNav">Gifts</a></li>
+                        <li><a href="#/guestbook" ng-click="mobileNav = !mobileNav">Guestbook</a></li>
+                    </ul>
+                </div>
                 <ng-view></ng-view>
             </div>
         </div>

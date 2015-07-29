@@ -1,29 +1,3 @@
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\MattAndBrittneyWedding.dll.config
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\MattAndBrittneyWedding.dll
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\MattAndBrittneyWedding.pdb
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Antlr3.Runtime.dll
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Microsoft.Web.Infrastructure.dll
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Newtonsoft.Json.dll
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Helpers.dll
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Mvc.dll
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Optimization.dll
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Razor.dll
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.WebPages.Deployment.dll
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.WebPages.dll
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.WebPages.Razor.dll
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\WebGrease.dll
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Antlr3.Runtime.pdb
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Newtonsoft.Json.xml
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Helpers.xml
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Mvc.xml
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Optimization.xml
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Razor.xml
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.WebPages.xml
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.WebPages.Deployment.xml
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.WebPages.Razor.xml
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\obj\Debug\MattAndBrittneyWedding.dll
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\obj\Debug\MattAndBrittneyWedding.pdb
-c:\users\matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\obj\Debug\MattAndBrittneyWedding.csprojResolveAssemblyReference.cache
 C:\Users\Matthew\Source\Repos\MBWedding\MattAndBrittneyWedding\bin\MattAndBrittneyWedding.dll.config
 C:\Users\Matthew\Source\Repos\MBWedding\MattAndBrittneyWedding\bin\MattAndBrittneyWedding.dll
 C:\Users\Matthew\Source\Repos\MBWedding\MattAndBrittneyWedding\bin\MattAndBrittneyWedding.pdb
@@ -50,3 +24,34 @@ C:\Users\Matthew\Source\Repos\MBWedding\MattAndBrittneyWedding\bin\System.Web.We
 C:\Users\Matthew\Source\Repos\MBWedding\MattAndBrittneyWedding\obj\Debug\MattAndBrittneyWedding.csprojResolveAssemblyReference.cache
 C:\Users\Matthew\Source\Repos\MBWedding\MattAndBrittneyWedding\obj\Debug\MattAndBrittneyWedding.dll
 C:\Users\Matthew\Source\Repos\MBWedding\MattAndBrittneyWedding\obj\Debug\MattAndBrittneyWedding.pdb
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\MattAndBrittneyWedding.dll.config
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\MattAndBrittneyWedding.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\MattAndBrittneyWedding.pdb
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Antlr3.Runtime.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Newtonsoft.Json.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Net.Http.Formatting.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Helpers.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Http.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Http.WebHost.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Mvc.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Optimization.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Razor.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.WebPages.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.WebPages.Razor.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\WebGrease.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Antlr3.Runtime.pdb
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Newtonsoft.Json.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Net.Http.Formatting.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Helpers.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Http.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Http.WebHost.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Mvc.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Optimization.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Razor.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.WebPages.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.WebPages.Razor.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\obj\Debug\MattAndBrittneyWedding.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\obj\Debug\MattAndBrittneyWedding.pdb

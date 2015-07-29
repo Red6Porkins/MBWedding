@@ -58,6 +58,7 @@
     border: none;
 }
 
+
 /*Margins*/
 .MarginTop5 {
     margin-top: 5px;
@@ -105,6 +106,14 @@
 
 .MarginBottom15 {
     margin-bottom: 15px;
+}
+
+.MarginBottom25 {
+    margin-bottom: 25px;
+}
+
+.MarginBottom50 {
+    margin-bottom: 50px;
 }
 
 .MarginLeft5 {
@@ -183,9 +192,28 @@
 
 
 /*Text Colors*/
+.RedText {
+    color: rgb(231, 76, 60);
+}
 
+.Frederick {
+    font-family: 'Fredericka the Great', cursive;    
+}
 
+.Cinzel {
+    font-family: 'Cinzel Decorative', cursive;
+}
 
+.Macondo {
+    font-family: 'Macondo', cursive;
+}
+
+.HeaderText {
+    font-size: 60px;
+    color: rgb(231,76,60);
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+}
 
 /*Background Colors*/
 

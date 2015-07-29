@@ -48,8 +48,13 @@
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.5.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
@@ -63,6 +68,14 @@
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -103,6 +116,42 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\assets\css\zresponsive.css" />
+    <Content Include="app\assets\img\braves.jpg" />
+    <Content Include="app\assets\img\dogsgiving.jpg" />
+    <Content Include="app\assets\img\gallery\slide %281%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2810%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2811%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2812%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2813%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2814%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2816%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2817%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2818%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2819%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %282%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2820%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2821%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2822%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2823%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2824%29.JPG" />
+    <Content Include="app\assets\img\gallery\slide %2825%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2826%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2827%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2828%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2829%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %283%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2830%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2831%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %2832%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %284%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %285%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %286%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %287%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %288%29.jpg" />
+    <Content Include="app\assets\img\gallery\slide %289%29.jpg" />
+    <Content Include="app\assets\img\heart-icon.png" />
+    <Content Include="app\assets\img\jaxlouie.jpg" />
+    <Content Include="app\assets\img\marrymefull.jpg" />
     <Content Include="app\assets\img\slide1.jpg" />
     <Content Include="app\assets\img\slide2.jpg" />
     <Content Include="app\assets\img\slide3.jpg" />
@@ -114,8 +163,12 @@
     <Content Include="app\assets\vendorscripts\angular-timer.min.js" />
     <Content Include="app\assets\vendorscripts\humanize-duration.js" />
     <Content Include="app\assets\vendorscripts\moment.min.js" />
+    <Content Include="app\gallery\gallery.html" />
+    <Content Include="app\gallery\galleryController.js" />
+    <Content Include="app\gallery\galleryService.js" />
     <Content Include="app\our-story\ourStory.html" />
     <Content Include="app\our-story\ourStoryController.js" />
+    <Content Include="app\shared\imgLoadDirective.js" />
     <Content Include="app\shared\page\pageController.js" />
     <Content Include="app\home\homeSliderDirective.html" />
     <Content Include="app\home\homeSliderDirective.js" />
@@ -931,7 +984,9 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="api\GalleryController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

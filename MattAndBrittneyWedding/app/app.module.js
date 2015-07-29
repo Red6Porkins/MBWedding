@@ -15,6 +15,10 @@
                 templateUrl: '/app/our-story/ourStory.html',
                 controller: 'ourStoryController'
             })
+            .when('/gallery', {
+                templateUrl: '/app/gallery/gallery.html',
+                controller: 'galleryController'
+            })
             .otherwise({ redirectTo: '/' });
     });
 })();

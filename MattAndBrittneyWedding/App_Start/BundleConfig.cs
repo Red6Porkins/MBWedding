@@ -22,11 +22,17 @@ namespace MattAndBrittneyWedding.App_Start
             bundles.Add(new ScriptBundle("~/bundles/controllers").Include(
                       "~/app/home/homeController.js",
                       "~/app/our-story/ourStoryController.js",
+                      "~/app/gallery/galleryController.js",
                       "~/app/shared/page/pageController.js"
                       ));
 
             bundles.Add(new ScriptBundle("~/bundles/directives").Include(
-                     "~/app/home/homeSliderDirective.js"
+                     "~/app/home/homeSliderDirective.js",
+                     "~/app/shared/imgLoadDirective.js"
+                      ));
+
+            bundles.Add(new ScriptBundle("~/bundles/services").Include(
+                     "~/app/gallery/galleryService.js"
                       ));
 
             bundles.Add(new StyleBundle("~/bundles/bootstrap").Include(
