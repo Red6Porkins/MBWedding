@@ -20,16 +20,19 @@ namespace MattAndBrittneyWedding.App_Start
                       ));
 
             bundles.Add(new ScriptBundle("~/bundles/controllers").Include(
-                      "~/app/home/homeController.js"
+                      "~/app/home/homeController.js",
+                      "~/app/our-story/ourStoryController.js",
+                      "~/app/shared/page/pageController.js"
                       ));
 
             bundles.Add(new ScriptBundle("~/bundles/directives").Include(
-                     "~/app/shared/sidebar/sidebar.js"
+                     "~/app/home/homeSliderDirective.js"
                       ));
 
             bundles.Add(new StyleBundle("~/bundles/bootstrap").Include(
                       "~/app/assets/vendorcss/bootstrap.min.css",
-                      "~/app/assets/vendorcss/ui-bootstrap-csp.css"
+                      "~/app/assets/vendorcss/ui-bootstrap-csp.css", 
+                      "~/app/assets/vendorcss/nga.min.css"
                       ));
 
             bundles.Add(new StyleBundle("~/bundles/css").Include(

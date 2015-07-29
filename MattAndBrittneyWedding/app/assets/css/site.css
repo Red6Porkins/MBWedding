@@ -13,27 +13,31 @@
 }
 
 .carousel-control, .carousel-indicators {
-    display: none;
+    /*display: none;*/
 }
 
 .SideNav {
-    width: 60%;
-    margin: 0 auto;
+    width: 100%;    
     background: rgba(231, 76, 60,.8);
     min-height: 100px;
-    position: absolute;
-    left: 19%;
-    top: 0;
-    z-index: 9;
+    margin: 0 auto;
     padding: 25px 5px 10px 5px;
 }
-
 
 .SideNav h1 {
    font-family: 'Fredericka the Great', cursive;     
    color: #fff;
    font-size: 35px;
    text-align: center;
+}
+
+.SideNav h1 a {   
+   color: #fff;
+   text-decoration: none;
+}
+
+.SideNav h1 a:hover {
+    text-decoration: none; 
 }
 
 .SideNav ul {
@@ -73,6 +77,12 @@
 
 .MainCol {
     background: #fff;
+}
+
+#HomeSlider { 
+    max-height: 400px;
+    background: #56514E;
+    overflow:hidden;
 }
 
 .HomeWelcome {

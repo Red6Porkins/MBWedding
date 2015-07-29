@@ -103,18 +103,22 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\assets\css\zresponsive.css" />
-    <Content Include="app\assets\img\home-heasked.jpg" />
     <Content Include="app\assets\img\slide1.jpg" />
     <Content Include="app\assets\img\slide2.jpg" />
     <Content Include="app\assets\img\slide3.jpg" />
     <Content Include="app\assets\img\slide4.jpg" />
+    <Content Include="app\assets\img\slide5.jpg" />
     <Content Include="app\assets\img\wood-texture.jpg" />
+    <Content Include="app\assets\vendorcss\nga.min.css" />
     <Content Include="app\assets\vendorcss\ui-bootstrap-csp.css" />
     <Content Include="app\assets\vendorscripts\angular-timer.min.js" />
     <Content Include="app\assets\vendorscripts\humanize-duration.js" />
     <Content Include="app\assets\vendorscripts\moment.min.js" />
-    <Content Include="app\shared\sidebar\sidebar.html" />
-    <Content Include="app\shared\sidebar\sidebar.js" />
+    <Content Include="app\our-story\ourStory.html" />
+    <Content Include="app\our-story\ourStoryController.js" />
+    <Content Include="app\shared\page\pageController.js" />
+    <Content Include="app\home\homeSliderDirective.html" />
+    <Content Include="app\home\homeSliderDirective.js" />
     <Content Include="packages.config" />
     <Content Include="index.cshtml" />
     <Content Include="app\assets\vendorscripts\angular\angular-animate.js" />
