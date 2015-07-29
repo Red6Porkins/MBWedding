@@ -1,0 +1,13 @@
+﻿<div class="row NoHM MarginTop25">
+    <div class="col-md-12">
+        <h1 class="HeaderText">Gallery</h1>
+        <div class="MarginTop10 CHR"></div>
+        <div class="CHR"></div>
+        <div class="MarginTop20 Gallery">
+            <h1 class="Frederick RedText" ng-show="!isLoaded">Loading Gallery...</h1>
+            <div ng-repeat="image in images" ng-show="isLoaded">
+                <img ng-src="{{image.source}}" img-load="imageLoaded($index)" />
+            </div>
+        </div>
+    </div>
+</div>
