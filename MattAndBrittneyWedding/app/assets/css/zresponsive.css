@@ -76,6 +76,11 @@
         width: 32%;
         margin-right: 1%;
     }
+
+    .LargeImage .Controls {        
+        background: rgba(255,255,255,.5);
+        border: none;
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */

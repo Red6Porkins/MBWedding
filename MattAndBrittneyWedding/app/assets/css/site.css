@@ -294,17 +294,63 @@ a:visited {
     font-size: 15px;
 }
 
+.Gallery {
+    margin-bottom: 50px;
+    max-height: 600px;
+    overflow: auto;
+}
+
 .Gallery div {
     width: 99%;
-    margin-right: 1%;
+    margin-right: 1%;    
     text-align: center;
     display: inline-block;
     vertical-align: top;
     margin-top: 20px;
+    background: #000;
+    padding: 5px;
 }
 
 .Gallery img {
     max-height: 150px;
-    box-shadow: 0 0 5pt 1px #262626;
-    border-radius: 3px;
+}
+
+.modal-content {
+    background: #000;
+}
+
+.LargeImage {
+    position: relative;
+}
+
+.LargeImage .Controls {
+    color: #fff;
+    z-index: 100;
+    position:absolute;
+    height:100%;
+    font-size: 45px;
+    background: none;
+    border: none;
+}
+
+.LargeImage .Controls:focus {
+    outline: none;
+}
+
+.LargeImage .Controls.glyphicon-chevron-right {
+    right:20px;
+    text-shadow: 0 0 5pt #000;
+}
+.LargeImage .Controls.glyphicon-chevron-left {
+    left:20px;
+    text-shadow: 0 0 5pt #000;
+}
+
+.CloseModal {
+    font-size: 26px;
+    color: #FFF;    
+    position: relative;
+    left: -28px;
+    top: -25px;
+    text-shadow: 0 0 4pt #612020;
 }
