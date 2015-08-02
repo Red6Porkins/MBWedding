@@ -15,7 +15,8 @@ namespace MattAndBrittneyWedding.App_Start
                       "~/app/assets/vendorscripts/angular-ui/ui-bootstrap-tpls.min.js",
                       "~/app/assets/vendorscripts/angular-timer.min.js",
                       "~/app/assets/vendorscripts/humanize-duration.js",
-                      "~/app/assets/vendorscripts/moment.min.js", 
+                      "~/app/assets/vendorscripts/moment.min.js",
+                      "~/app/assets/vendorscripts/angular-sticky.min.js", 
                       "~/app/app.module.js"
                       ));
 

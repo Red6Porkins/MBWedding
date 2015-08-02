@@ -3,7 +3,8 @@
         'ngRoute',
         'ui.bootstrap',
         'ngAnimate',
-        'timer'
+        'timer',
+        'sticky'
     ])
     .config(function ($routeProvider) {
         $routeProvider
