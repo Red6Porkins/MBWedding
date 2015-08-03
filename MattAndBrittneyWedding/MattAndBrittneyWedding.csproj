@@ -172,6 +172,7 @@
     <Content Include="app\shared\page\pageController.js" />
     <Content Include="app\home\homeSliderDirective.html" />
     <Content Include="app\home\homeSliderDirective.js" />
+    <Content Include="app\assets\vendorscripts\angular-sticky.min.js" />
     <Content Include="packages.config" />
     <Content Include="index.cshtml" />
     <Content Include="app\assets\vendorscripts\angular\angular-animate.js" />
