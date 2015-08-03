@@ -22,6 +22,11 @@
                     console.log(data);
                     $scope.posts[Index].IsVisible = 1;
                     $scope.serverInteraction = false;
+                    $scope.crError = false;
+                })
+                .error(function (data) {
+                    $scope.serverInteraction = false;
+                    $scope.crError = "An error occured approving this post";
                 });
         };
 
@@ -32,7 +37,12 @@
                     console.log(data);
                     $scope.posts[Index].IsDeleted = 1;
                     $scope.serverInteraction = false;
-                });            
+                    $scope.crError = false;
+                })
+                .error(function (data) {
+                    $scope.serverInteraction = false;
+                    $scope.crError = "An error occured deleting this post";
+                });
         };
     }]);
 })();

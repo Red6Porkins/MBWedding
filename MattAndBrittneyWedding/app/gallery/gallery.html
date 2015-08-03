@@ -4,7 +4,10 @@
         <div class="MarginTop10 CHR"></div>
         <div class="CHR"></div>
         <div class="MarginTop20 Gallery" ng-show="!imagesError">
-            <h1 class="Frederick RedText MarginBottom25" ng-show="!isLoaded">Loading Gallery...</h1>
+            <h2 class="Frederick RedText MarginBottom25" ng-show="!isLoaded">
+                Loading Gallery...
+                <i class="fa fa-spinner BigSpinner fa-spin GreenText"></i>
+            </h2>
             <div ng-repeat="image in images" ng-show="isLoaded">
                 <img ng-src="{{image.source}}" ng-click="open($index, image.source)" img-load="imageLoaded($index)" />
             </div>

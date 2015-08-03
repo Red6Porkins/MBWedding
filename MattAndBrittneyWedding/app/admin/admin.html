@@ -12,7 +12,10 @@
         <h2 class="Frederick MarginTop20 MarginBottom25 RedText" ng-show="loadingPosts && !postsError">
             Loading Posts...
             <i class="fa fa-spinner BigSpinner fa-spin GreenText"></i>
-        </h2>   
+        </h2>  
+        <h2 class="Frederick MarginTop20 RedText" ng-show="crError">
+            {{ crError }}
+        </h2> 
         <div class="MarginTop20 Guestbook" ng-show="!postsError">
             <div ng-repeat="post in posts" ng-show="posts[$index].IsDeleted == 0" class="nga-fast nga-stagger nga-fade well">
                 <input type="button" name="name" ng-show="posts[$index].IsVisible == 0" class="btn btn-success btn-sm" value="Approve Post" ng-click="approve(post.GuestBookID, $index)" />

@@ -56,3 +56,9 @@ C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\Ma
 C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\obj\Debug\MattAndBrittneyWedding.dll
 C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\obj\Debug\MattAndBrittneyWedding.pdb
 C:\Users\Matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\obj\Debug\MattAndBrittneyWedding.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\Source\Repos\MBWedding\MattAndBrittneyWedding\bin\System.Net.Http.Formatting.dll
+C:\Users\Matthew\Source\Repos\MBWedding\MattAndBrittneyWedding\bin\System.Web.Http.dll
+C:\Users\Matthew\Source\Repos\MBWedding\MattAndBrittneyWedding\bin\System.Web.Http.WebHost.dll
+C:\Users\Matthew\Source\Repos\MBWedding\MattAndBrittneyWedding\bin\System.Net.Http.Formatting.xml
+C:\Users\Matthew\Source\Repos\MBWedding\MattAndBrittneyWedding\bin\System.Web.Http.xml
+C:\Users\Matthew\Source\Repos\MBWedding\MattAndBrittneyWedding\bin\System.Web.Http.WebHost.xml
