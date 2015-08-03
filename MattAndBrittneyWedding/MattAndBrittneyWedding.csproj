@@ -166,6 +166,9 @@
     <Content Include="app\gallery\gallery.html" />
     <Content Include="app\gallery\galleryController.js" />
     <Content Include="app\gallery\galleryService.js" />
+    <Content Include="app\guestbook\guestbook.html" />
+    <Content Include="app\guestbook\guestbookController.js" />
+    <Content Include="app\guestbook\guestbookService.js" />
     <Content Include="app\our-story\ourStory.html" />
     <Content Include="app\our-story\ourStoryController.js" />
     <Content Include="app\shared\imgLoadDirective.js" />
@@ -985,13 +988,18 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="api\GalleryController.cs" />
+    <Compile Include="Api\GalleryController.cs" />
+    <Compile Include="Api\GuestBookController.cs" />
+    <Compile Include="Api\t.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\GuestBookModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\BaseRepository.cs" />
+    <Compile Include="Repository\GuestBookRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\assets\scripts\" />

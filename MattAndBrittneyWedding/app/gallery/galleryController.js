@@ -46,8 +46,7 @@
                     index: function () { return index; },
                     images: function () { return $scope.images }
                 }
-            });
-            console.log(largeImage);
+            });            
         };               
         ////////////////////////////////////////////////////////////////////////
     }]);

@@ -11,10 +11,7 @@
                 ele.bind('error', function () {
                     
                 });
-            }//,            
-            //controller: ['$scope', '$timeout', function ($scope, $timeout) {
-
-            //}]
+            }
         }
     });
 })();

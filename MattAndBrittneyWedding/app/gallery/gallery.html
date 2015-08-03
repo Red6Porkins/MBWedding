@@ -16,6 +16,12 @@
         <span class="glyphicon glyphicon-remove HoverMe pull-left CloseModal" ng-click="cancel()"></span> 
             <button class="glyphicon Controls glyphicon-chevron-left" ng-click="prev()"></button>
             <button class="glyphicon Controls glyphicon-chevron-right" ng-click="next()"></button>
-            <img src="{{ largeImage }}" class="img-responsive CenterMargin" />            
+            <img ng-src="{{ largeImage }}" class="img-responsive CenterMargin" />            
     </div>
 </script>
+
+<style>
+    .modal-content {
+        background: #000;
+    }
+</style>

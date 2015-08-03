@@ -55,3 +55,4 @@ C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\Ma
 C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.WebPages.Razor.xml
 C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\obj\Debug\MattAndBrittneyWedding.dll
 C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\obj\Debug\MattAndBrittneyWedding.pdb
+C:\Users\Matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\obj\Debug\MattAndBrittneyWedding.csprojResolveAssemblyReference.cache

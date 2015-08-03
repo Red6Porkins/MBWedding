@@ -20,6 +20,10 @@
                 templateUrl: '/app/gallery/gallery.html',
                 controller: 'galleryController'
             })
+            .when('/guestbook', {
+                templateUrl: '/app/guestbook/guestbook.html',
+                controller: 'guestbookController'
+            })
             .otherwise({ redirectTo: '/' });
     });
 })();
