@@ -24,6 +24,10 @@
                 templateUrl: '/app/guestbook/guestbook.html',
                 controller: 'guestbookController'
             })
+            .when('/admin', {
+                templateUrl: '/app/admin/admin.html',
+                controller: 'adminController'
+            })
             .otherwise({ redirectTo: '/' });
     });
 })();

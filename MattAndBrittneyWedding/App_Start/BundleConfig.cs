@@ -25,6 +25,7 @@ namespace MattAndBrittneyWedding.App_Start
                       "~/app/our-story/ourStoryController.js",
                       "~/app/gallery/galleryController.js",
                       "~/app/guestbook/guestbookController.js",
+                      "~/app/admin/adminController.js",
                       "~/app/shared/page/pageController.js"
                       ));
 
@@ -35,7 +36,8 @@ namespace MattAndBrittneyWedding.App_Start
 
             bundles.Add(new ScriptBundle("~/bundles/services").Include(
                      "~/app/gallery/galleryService.js",
-                     "~/app/guestbook/guestbookService.js"
+                     "~/app/guestbook/guestbookService.js",
+                     "~/app/admin/adminService.js"
                       ));
 
             bundles.Add(new StyleBundle("~/bundles/bootstrap").Include(

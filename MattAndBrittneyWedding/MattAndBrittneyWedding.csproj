@@ -115,6 +115,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\admin\admin.html" />
+    <Content Include="app\admin\adminController.js" />
+    <Content Include="app\admin\adminService.js" />
     <Content Include="app\assets\css\zresponsive.css" />
     <Content Include="app\assets\img\braves.jpg" />
     <Content Include="app\assets\img\dogsgiving.jpg" />

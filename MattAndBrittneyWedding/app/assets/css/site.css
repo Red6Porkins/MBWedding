@@ -366,3 +366,45 @@ a:visited {
     margin-right: 1%;
     margin-bottom: 25px;
 }
+
+.Guestbook.TextContainer {
+    width: 100%;
+}
+
+.BigSpinner {
+    font-size: 30px !important;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48 !important;
+}
+
+    .field-validation-error span {
+        color: #b94a48 !important;
+    }
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #b94a48;    
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors ul li {
+    color: #e74c3c;
+    list-style: none;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+*:focus {
+    outline: 0;
+}

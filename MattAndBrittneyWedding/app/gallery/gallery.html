@@ -3,11 +3,14 @@
         <h1 class="HeaderText">Gallery</h1>
         <div class="MarginTop10 CHR"></div>
         <div class="CHR"></div>
-        <div class="MarginTop20 Gallery">
+        <div class="MarginTop20 Gallery" ng-show="!imagesError">
             <h1 class="Frederick RedText MarginBottom25" ng-show="!isLoaded">Loading Gallery...</h1>
             <div ng-repeat="image in images" ng-show="isLoaded">
                 <img ng-src="{{image.source}}" ng-click="open($index, image.source)" img-load="imageLoaded($index)" />
             </div>
+        </div>
+        <div ng-show="imagesError" class="MarginTop20 MarginBottom25">
+            <h2 class="RedText Macondo">{{ imagesError }}</h2>
         </div>
     </div>
 </div>

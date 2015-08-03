@@ -17,25 +17,37 @@ namespace MattAndBrittneyWedding.Api
 
         public GuestBookController ()
         {
-            //if (GRepo == null)
-            //    GRepo = new GuestBookRepository();
+            if (GRepo == null)
+                GRepo = new GuestBookRepository();
         }
 
-        //public async Task<IHttpActionResult> Post ([FromBody]GuestBookModel Model)
-        //{
-        //    await GRepo.AddEntry(Model);
-        //    return Ok();
-        //}
+        public async Task<IHttpActionResult> Post ([FromBody]GuestBookModel Model)
+        {
+            await GRepo.AddEntry(Model);
+            return Ok();
+        }
 
-        //public async Task<IEnumerable> Get()
-        //{
-        //    return await GRepo.GetEntries(true);
-        //}
+        public async Task<IEnumerable> Get ()
+        {
+            return await GRepo.GetEntries(true);
+        }
 
-        //[Route("api/guestbook/GetAll")]
-        //public async Task<IEnumerable> GetAll()
-        //{
-        //    return await GRepo.GetEntries(false);
-        //}
+        [Route("api/guestbook/GetAll")]
+        public async Task<IEnumerable> GetAll ()
+        {
+            return await GRepo.GetEntries(false);
+        }
+
+        public async Task<IHttpActionResult> Put (int ID) //approve
+        {
+            await GRepo.ApproveEntry(ID);
+            return Ok();
+        }
+
+        public async Task<IHttpActionResult> Delete (int ID)
+        {
+            await GRepo.RemoveEntry(ID);
+            return Ok();
+        }
     }
-}
+} 

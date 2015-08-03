@@ -17,6 +17,8 @@ namespace MattAndBrittneyWedding.Models
 
         public String Injected { get; set; }
 
-        public String IsVisible { get; set; }
+        public bool IsVisible { get; set; }
+
+        public bool IsDeleted { get; set; }
     }
 }

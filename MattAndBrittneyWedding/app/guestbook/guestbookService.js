@@ -10,8 +10,13 @@
             });
         }
 
+        var addEntry = function(formData) {
+            return $http.post('/api/guestbook', formData);
+        }
+
         return {
-            getGuestbook: getGuestbook
+            getGuestbook: getGuestbook,
+            addEntry: addEntry
         }
     }]);
 })();
