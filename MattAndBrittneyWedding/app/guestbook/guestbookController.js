@@ -63,15 +63,15 @@
        }
        $scope.sendMessage = function () {
            if ($scope.formData.Name != null && $scope.formData.Name != "" && $scope.formData.Email               
-                != null && $scope.formData.Email != "" && $scope.formData.Message != null && $scope.formData.Message != "") {
-               $scope.formSubmitting = true;
-               console.log("Submitting");
-               guestbook.addEntry($scope.formData).then(onSuccess, onError);
+                != null && $scope.formData.Email != "" && $scope.formData.Message
+               != null && $scope.formData.Message != "") {
+                   $scope.formSubmitting = true;
+                   console.log("Submitting");
+                   guestbook.addEntry($scope.formData).then(onSuccess, onError);
            } else {
                console.log("Errors Present");
                $scope.formError = true;
            }
-       };
-    
+       };    
    }]);
 })();
