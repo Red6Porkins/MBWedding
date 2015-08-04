@@ -1,5 +1,6 @@
 ﻿using MattAndBrittneyWedding.Models;
 using MattAndBrittneyWedding.Repository;
+using MattAndBrittneyWedding.Services;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -24,6 +25,24 @@ namespace MattAndBrittneyWedding.Api
         public async Task<IHttpActionResult> Post ([FromBody]GuestBookModel Model)
         {
             await GRepo.AddEntry(Model);
+
+            try
+            {
+                using (var Email = new EmailService())
+                {
+                    Email.EmailTo = "mituw16@gmail.com";
+                    Email.CarbonCopy.Add("brittney.pugh@gmail.com");
+                    Email.EmailFrom = "no-reply@mattandbrittney.com";
+                    Email.Subject = "New Guestbook Signing: " + Model.Name;
+                    Email.Message = Model.Name + " has signed your guestbook.";
+                    Email.Send();
+                }
+            }
+            catch (Exception Ex)
+            {
+                GRepo.WriteLog(Ex, "From Controller");
+            }
+
             return Ok();
         }
 

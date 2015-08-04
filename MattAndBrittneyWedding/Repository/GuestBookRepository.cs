@@ -87,5 +87,21 @@ namespace MattAndBrittneyWedding.Repository
                 return L;
             });
         }
+
+        public void WriteLog (Exception Ex, String Message)
+        {
+            var Query = @"insert into AppLog (Message, CMessage) values (@Message, @CMessage)";
+
+            var EMessage = String.Empty;
+            if (Ex.InnerException != null) {
+                EMessage = Ex.InnerException + " -- " + Ex.Message;
+            } else {
+                EMessage = Ex.Message;
+            }
+
+            SetUpRawSQL(new { @Message = EMessage, @CMessage = Message }, Query);
+
+            SqlCommand.ExecuteNonQuery();
+        }
     }
 }

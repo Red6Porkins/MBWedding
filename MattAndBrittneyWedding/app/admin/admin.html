@@ -1,11 +1,8 @@
 ﻿<div class="row NoHM MarginTop25">
     <div class="col-md-12">
-        <h1 class="HeaderText">Admin</h1>
+        <h1 class="HeaderText">Admin <span ng-show="serverInteraction"><i class="fa fa-spinner BigSpinner fa-spin GreenText"></i></span></h1>
         <div class="MarginTop10 CHR"></div>
-        <div class="CHR"></div>        
-        <div class="MarginTop20 MarginBottom25 Center" ng-show="serverInteraction">
-            <i class="fa fa-spinner BigSpinner fa-spin GreenText"></i>
-        </div>
+        <div class="CHR"></div>                
         <div ng-show="postsError" class="MarginTop20 MarginBottom25">
             <h2 class="RedText Frederick">{{ postsError }}</h2>
         </div>
