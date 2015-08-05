@@ -9,6 +9,7 @@ namespace MattAndBrittneyWedding.App_Start
         public static void RegisterBundles (BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
+                      "~/app/assets/vendorscripts/jquery-2.1.4.min.js",
                       "~/app/assets/vendorscripts/angular/angular.min.js",
                       "~/app/assets/vendorscripts/angular/angular-route.min.js",
                       "~/app/assets/vendorscripts/angular/angular-animate.min.js",
@@ -31,7 +32,8 @@ namespace MattAndBrittneyWedding.App_Start
 
             bundles.Add(new ScriptBundle("~/bundles/directives").Include(
                      "~/app/home/homeSliderDirective.js",
-                     "~/app/shared/imgLoadDirective.js"
+                     "~/app/shared/imgLoadDirective.js",
+                     "~/app/shared/scrollTop/scrollTopDirective.js"
                       ));
 
             bundles.Add(new ScriptBundle("~/bundles/services").Include(
