@@ -87,7 +87,9 @@
         border: none;
     }
 
-
+    .RWidth50 {
+        width: 50%;
+    }
 
 }
 

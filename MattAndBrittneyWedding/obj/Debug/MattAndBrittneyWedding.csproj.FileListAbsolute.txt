@@ -62,3 +62,14 @@ C:\Users\Matthew\Source\Repos\MBWedding\MattAndBrittneyWedding\bin\System.Net.Ht
 C:\Users\Matthew\Source\Repos\MBWedding\MattAndBrittneyWedding\bin\System.Web.Http.xml
 C:\Users\Matthew\Source\Repos\MBWedding\MattAndBrittneyWedding\bin\System.Web.Http.WebHost.xml
 C:\Users\Matthew\documents\visual studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\obj\Debug\MattAndBrittneyWedding.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Microsoft.Owin.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Owin.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Http.Owin.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Microsoft.Owin.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\System.Web.Http.Owin.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Microsoft.Owin.Security.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Microsoft.Owin.Security.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\MattAndBrittneyWedding\MattAndBrittneyWedding\bin\Microsoft.Owin.Security.OAuth.xml

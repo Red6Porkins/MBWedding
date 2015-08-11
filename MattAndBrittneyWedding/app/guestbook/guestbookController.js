@@ -6,7 +6,6 @@
         var OnSuccess = function(data) {
             $scope.posts = data;
             $scope.loadingPosts = false;
-            console.log(data);
         }
         var OnError = function () {
             $scope.postsError = "Unable to retreive posts at this time";

@@ -52,17 +52,20 @@ namespace MattAndBrittneyWedding.Api
         }
 
         [Route("api/guestbook/GetAll")]
+        [Authorize]
         public async Task<IEnumerable> GetAll ()
         {
             return await GRepo.GetEntries(false);
         }
 
+        [Authorize]
         public async Task<IHttpActionResult> Put (int ID) //approve
         {
             await GRepo.ApproveEntry(ID);
             return Ok();
         }
 
+        [Authorize]
         public async Task<IHttpActionResult> Delete (int ID)
         {
             await GRepo.RemoveEntry(ID);

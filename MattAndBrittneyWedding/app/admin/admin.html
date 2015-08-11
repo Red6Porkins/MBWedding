@@ -1,6 +1,8 @@
 ﻿<div class="row NoHM MarginTop25">
     <div class="col-md-12">
         <h1 class="HeaderText">Admin <span ng-show="serverInteraction"><i class="fa fa-spinner BigSpinner fa-spin GreenText"></i></span></h1>
+        <h4 class="Center Macondo" style="font-size: 24px; margin-top: 15px; color:#7f8c8d;">Hello, {{ userName }}</h4>
+        <h4 class="Center Macondo"><a href="javascript:;" ng-click="logout()">Logout</a></h4>
         <div class="MarginTop10 CHR"></div>
         <div class="CHR"></div>                
         <div ng-show="postsError" class="MarginTop20 MarginBottom25">

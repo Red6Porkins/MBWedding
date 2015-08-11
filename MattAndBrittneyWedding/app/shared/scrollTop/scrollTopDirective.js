@@ -11,8 +11,8 @@
             }],
             templateUrl: '/app/shared/scrollTop/scrollTop.html',
             link: function (scope, ele, attrs) {                
-                $(window).bind('scroll', function () {
-                    if (window.scrollY > 100) {
+                angular.element(window).bind('scroll', function () {
+                    if (window.scrollY >= 100) {
                         scope.$apply(function () {
                             scope.showScrollTop = true;
                         });
@@ -21,10 +21,10 @@
                             scope.showScrollTop = false;
                         });
                     }
-                });
 
-                $(ele).click(function () {
-                    $('html, body').animate({ scrollTop: 0 }, 800);
+                    scope.scrollTop = function () {
+                        $('html, body').animate({ scrollTop: 0 }, function () { });
+                    };
                 });
             }
         }

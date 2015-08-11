@@ -6,7 +6,7 @@
         'timer',
         'sticky'
     ])
-    .config(function ($routeProvider) {
+    .config(['$routeProvider', '$httpProvider', function ($routeProvider, $httpProvider) {
         $routeProvider
             .when('/', {
                 templateUrl: '/app/home/home.html',
@@ -26,8 +26,30 @@
             })
             .when('/admin', {
                 templateUrl: '/app/admin/admin.html',
-                controller: 'adminController'
+                controller: 'adminController',
+                access: {
+                    requiresLogin: true
+                }
+            })
+            .when('/login', {
+                templateUrl: '/app/login/login.html',
+                controller: 'loginController'
             })
             .otherwise({ redirectTo: '/' });
-    });
+        
+        $httpProvider
+            .interceptors.push('authInterceptorService');
+    }])
+    .run(['$rootScope', '$location', 'authService', function ($rootScope, $location, authService) {
+        authService.fillAuthData();
+
+        $rootScope.$on('$routeChangeStart', function (event, next) {
+            if (next.access !== undefined) {
+               console.log("auth required") 
+                if (!authService.userData.isAuth) {
+                    $location.path('/login');
+                }                
+            }
+        });
+    }]);
 })();

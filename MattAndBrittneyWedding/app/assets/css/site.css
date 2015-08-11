@@ -1,5 +1,5 @@
 ﻿body, html {
-    background: url(../img/wood-texture.jpg) repeat;
+    background: url(/app/assets/img/wood-texture.jpg) repeat;
     font-family: 'Ubuntu', sans-serif;
 }
 
