@@ -190,6 +190,8 @@
     <Content Include="app\assets\vendorscripts\angular-timer.min.js" />
     <Content Include="app\assets\vendorscripts\humanize-duration.js" />
     <Content Include="app\assets\vendorscripts\jquery-2.1.4.min.js" />
+    <Content Include="app\assets\vendorscripts\jquery.gravity.min.js" />
+    <Content Include="app\assets\vendorscripts\jquery.konami.min.js" />
     <Content Include="app\assets\vendorscripts\moment.min.js" />
     <Content Include="app\gallery\gallery.html" />
     <Content Include="app\gallery\galleryController.js" />

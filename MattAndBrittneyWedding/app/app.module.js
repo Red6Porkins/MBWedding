@@ -51,5 +51,21 @@
                 }                
             }
         });
+
+        console.log("For any of my developer friends poking around, I really like Hochstaders Slow and Low Rye Whiskey");
     }]);
+
+    //woo easter eggs
+    $(window).konami({
+        cheat: function () {
+            console.log("KONAMI ACTIVATED! ALL YOUR ELEMENTS ARE BELONG TO US");
+            $('#PageContainer').jGravity({
+                target: 'everything',
+                ignoreClass: 'ignoreMe',
+                weight: 25,
+                depth: 1,
+                drag: true
+            });
+        }
+    });
 })();
