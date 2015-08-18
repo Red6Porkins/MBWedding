@@ -11,8 +11,8 @@
             Loading Guestbook...
             <i class="fa fa-spinner BigSpinner fa-spin GreenText"></i>
         </h2>        
-        <div class="MarginTop20 Guestbook" ng-show="!postsError && !loadingPosts">
-            <div ng-repeat="post in posts" class="well">
+        <div masonry='{ "transitionDuration":"0.4s", "itemSelector":".tile"}' class="MarginTop20 Guestbook" ng-show="!postsError && !loadingPosts">
+            <div masonry-tile ng-repeat="post in posts" class="well tile">
                 <div class="TextBlock">
                     <p>
                         {{ post.Message }}

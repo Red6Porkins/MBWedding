@@ -3,8 +3,9 @@
         'ngRoute',
         'ui.bootstrap',
         'ngAnimate',
-        'timer',
-        'sticky'
+        'timer',  
+        'sticky', //side bar
+        'masonry' //guestbook
     ])
     .config(['$routeProvider', '$httpProvider', function ($routeProvider, $httpProvider) {
         $routeProvider

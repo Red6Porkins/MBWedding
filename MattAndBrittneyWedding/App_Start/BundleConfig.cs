@@ -13,6 +13,8 @@ namespace MattAndBrittneyWedding.App_Start
                       "~/app/assets/vendorscripts/jquery-2.1.4.min.js",
                       "~/app/assets/vendorscripts/jquery.gravity.min.js",
                       "~/app/assets/vendorscripts/jquery.konami.min.js",
+                      "~/app/assets/vendorscripts/masonry.min.js",
+                      "~/app/assets/vendorscripts/images-loaded.min.js",
                       "~/app/assets/vendorscripts/angular/angular.min.js",
                       "~/app/assets/vendorscripts/angular/angular-route.min.js",
                       "~/app/assets/vendorscripts/angular/angular-animate.min.js",
@@ -21,6 +23,7 @@ namespace MattAndBrittneyWedding.App_Start
                       "~/app/assets/vendorscripts/humanize-duration.js",
                       "~/app/assets/vendorscripts/moment.min.js",
                       "~/app/assets/vendorscripts/angular-sticky.min.js", 
+                      "~/app/app.masonry.js",
                       "~/app/app.module.js"
                       ));
 

@@ -187,11 +187,14 @@
     <Content Include="app\assets\img\wood-texture.jpg" />
     <Content Include="app\assets\vendorcss\nga.min.css" />
     <Content Include="app\assets\vendorcss\ui-bootstrap-csp.css" />
+    <Content Include="app\app.masonry.js" />
     <Content Include="app\assets\vendorscripts\angular-timer.min.js" />
     <Content Include="app\assets\vendorscripts\humanize-duration.js" />
+    <Content Include="app\assets\vendorscripts\images-loaded.min.js" />
     <Content Include="app\assets\vendorscripts\jquery-2.1.4.min.js" />
     <Content Include="app\assets\vendorscripts\jquery.gravity.min.js" />
     <Content Include="app\assets\vendorscripts\jquery.konami.min.js" />
+    <Content Include="app\assets\vendorscripts\masonry.min.js" />
     <Content Include="app\assets\vendorscripts\moment.min.js" />
     <Content Include="app\gallery\gallery.html" />
     <Content Include="app\gallery\galleryController.js" />
