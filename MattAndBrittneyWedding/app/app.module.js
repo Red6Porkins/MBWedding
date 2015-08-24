@@ -60,13 +60,8 @@
     $(window).konami({
         cheat: function () {
             console.log("KONAMI ACTIVATED! ALL YOUR ELEMENTS ARE BELONG TO US");
-            $('#PageContainer').jGravity({
-                target: 'everything',
-                ignoreClass: 'ignoreMe',
-                weight: 25,
-                depth: 1,
-                drag: true
-            });
+            var s = document.createElement('script'); s.setAttribute('src', 'https://nthitz.github.io/turndownforwhatjs/tdfw.js');
+            document.body.appendChild(s);
         }
     });
 })();

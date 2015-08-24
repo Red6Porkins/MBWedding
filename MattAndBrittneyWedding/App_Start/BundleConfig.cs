@@ -11,7 +11,6 @@ namespace MattAndBrittneyWedding.App_Start
         {
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
                       "~/app/assets/vendorscripts/jquery-2.1.4.min.js",
-                      "~/app/assets/vendorscripts/jquery.gravity.min.js",
                       "~/app/assets/vendorscripts/jquery.konami.min.js",
                       "~/app/assets/vendorscripts/masonry.min.js",
                       "~/app/assets/vendorscripts/images-loaded.min.js",
