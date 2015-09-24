@@ -25,6 +25,18 @@
                 templateUrl: '/app/guestbook/guestbook.html',
                 controller: 'guestbookController'
             })
+            .when('/weddingparty', {
+                templateUrl: '/app/weddingparty/weddingparty.html',
+                controller: 'weddingpartyController'
+            })
+            .when('/info', {
+                templateUrl: '/app/info/info.html',
+                controller: 'infoController'
+            })
+            .when('/lodging', {
+                templateUrl: '/app/lodging/lodging.html',
+                controller: 'lodgingController'
+            })
             .when('/admin', {
                 templateUrl: '/app/admin/admin.html',
                 controller: 'adminController',

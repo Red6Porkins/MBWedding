@@ -33,6 +33,9 @@ namespace MattAndBrittneyWedding.App_Start
                       "~/app/guestbook/guestbookController.js",
                       "~/app/admin/adminController.js",
                       "~/app/login/loginController.js",
+                      "~/app/weddingparty/weddingpartyController.js",
+                      "~/app/info/infoController.js",
+                      "~/app/lodging/lodgingController.js",
                       "~/app/shared/page/pageController.js"
                       ));
 

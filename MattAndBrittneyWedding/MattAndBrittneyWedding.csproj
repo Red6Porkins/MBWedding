@@ -192,7 +192,6 @@
     <Content Include="app\assets\vendorscripts\humanize-duration.js" />
     <Content Include="app\assets\vendorscripts\images-loaded.min.js" />
     <Content Include="app\assets\vendorscripts\jquery-2.1.4.min.js" />
-    <Content Include="app\assets\vendorscripts\jquery.gravity.min.js" />
     <Content Include="app\assets\vendorscripts\jquery.konami.min.js" />
     <Content Include="app\assets\vendorscripts\masonry.min.js" />
     <Content Include="app\assets\vendorscripts\moment.min.js" />
@@ -202,6 +201,10 @@
     <Content Include="app\guestbook\guestbook.html" />
     <Content Include="app\guestbook\guestbookController.js" />
     <Content Include="app\guestbook\guestbookService.js" />
+    <Content Include="app\info\info.html" />
+    <Content Include="app\info\infoController.js" />
+    <Content Include="app\lodging\lodging.html" />
+    <Content Include="app\lodging\lodgingController.js" />
     <Content Include="app\login\login.html" />
     <Content Include="app\login\loginController.js" />
     <Content Include="app\our-story\ourStory.html" />
@@ -215,6 +218,8 @@
     <Content Include="app\assets\vendorscripts\angular-sticky.min.js" />
     <Content Include="app\shared\scrollTop\scrollTop.html" />
     <Content Include="app\shared\scrollTop\scrollTopDirective.js" />
+    <Content Include="app\weddingparty\weddingparty.html" />
+    <Content Include="app\weddingparty\weddingpartyController.js" />
     <Content Include="packages.config" />
     <Content Include="index.cshtml" />
     <Content Include="app\assets\vendorscripts\angular\angular-animate.js" />
