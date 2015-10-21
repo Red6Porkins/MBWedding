@@ -73,7 +73,7 @@ namespace MattAndBrittneyWedding.Repository
 
             return await Task.Run(() =>
             {
-                var Query = @"select * from GuestBook where (IsVisible = @GetAll or @GetAll = 0) and IsDeleted = 0 order by Injected asc";
+                var Query = @"select * from GuestBook where (IsVisible = @GetAll or @GetAll = 0) and IsDeleted = 0 order by Injected desc";
                 SetUpRawSQL(new { @GetAll = GetAll }, Query);
 
                 var Reader = SqlCommand.ExecuteReader();
