@@ -9,9 +9,10 @@
                 <div ng-repeat="bride in bridesmaids" class="MarginBottom50 MarginTop20">
                     <div class="row">
                         <div class="col-md-3">
-                            <div class="wp-bs CenterMargin img-circle" style="height:100px; width: 100px;">
+                            <div class="wp-bs CenterMargin img-circle" ng-show="bride.Img === undefined" style="height:100px; width: 100px;">
                                 <span class="wp-cs">coming soon</span>
                             </div>
+                            <img ng-src="{{bride.Img}}" ng-show="bride.Img !== undefined" class="img-circle img-responsive wp-bs CenterMargin" />
                         </div>
                         <div class="col-md-9">
                             <b class="RedText">{{ bride.Name }}</b>
@@ -28,9 +29,10 @@
                 <div ng-repeat="groom in groomsmen" class="MarginBottom50 MarginTop20">
                     <div class="row">
                         <div class="col-md-3">
-                            <div class="wp-bs CenterMargin img-circle" style="height:100px; width: 100px;">
+                            <div class="wp-bs CenterMargin img-circle" ng-show="groom.Img === undefined" style="height:100px; width: 100px;">
                                 <span class="wp-cs">coming soon</span>
                             </div>
+                            <img ng-src="{{groom.Img}}" ng-show="groom.Img !== undefined" class="img-circle img-responsive wp-bs CenterMargin" />
                         </div>
                         <div class="col-md-9">
                             <b class="RedText">{{ groom.Name }}</b>

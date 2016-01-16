@@ -38,6 +38,10 @@
                 templateUrl: '/app/lodging/lodging.html',
                 controller: 'lodgingController'
             })
+            .when('/gifts', {
+                templateUrl: '/app/gifts/gifts.html',
+                controller: 'giftsController'
+            })
             .when('/admin', {
                 templateUrl: '/app/admin/admin.html',
                 controller: 'adminController',

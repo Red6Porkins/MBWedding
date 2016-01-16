@@ -9,12 +9,27 @@ a {
 
 .wp-bs { 
     box-shadow: 0 0 9pt 2pt #5d5d5d;
+    height: 100px;
+    width: 100px;
 }
 
 .wp-cs {
     position:relative;
     top: 36px;
     left: 7px;
+}
+
+.ra {
+    box-shadow: 0 0 10pt 1pt #A2A2A2;
+    padding: 10px;
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+}
+
+.ra:hover {
+    box-shadow:0 0 10pt 1pt #436D98;
+    cursor: pointer;
 }
 
 a:hover, a:focus {
