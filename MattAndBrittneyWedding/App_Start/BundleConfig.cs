@@ -21,7 +21,8 @@ namespace MattAndBrittneyWedding.App_Start
                       "~/app/assets/vendorscripts/angular-timer.min.js",
                       "~/app/assets/vendorscripts/humanize-duration.js",
                       "~/app/assets/vendorscripts/moment.min.js",
-                      "~/app/assets/vendorscripts/angular-sticky.min.js", 
+                      "~/app/assets/vendorscripts/angular-sticky.min.js",
+                      "~/app/assets/vendorscripts/angular/angular-sanitize.min.js",
                       "~/app/app.masonry.js",
                       "~/app/app.module.js"
                       ));
@@ -65,7 +66,7 @@ namespace MattAndBrittneyWedding.App_Start
 
             // Set EnableOptimizations to false for debugging. For more information,
             // visit http://go.microsoft.com/fwlink/?LinkId=301862
-            BundleTable.EnableOptimizations = true;
+            BundleTable.EnableOptimizations = false;
         }
     }
 

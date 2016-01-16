@@ -7,6 +7,16 @@ a {
     text-decoration: none;
 }
 
+.wp-bs { 
+    box-shadow: 0 0 9pt 2pt #5d5d5d;
+}
+
+.wp-cs {
+    position:relative;
+    top: 36px;
+    left: 7px;
+}
+
 a:hover, a:focus {
     text-decoration: none !important;
 }

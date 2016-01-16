@@ -3,7 +3,8 @@
         'ngRoute',
         'ui.bootstrap',
         'ngAnimate',
-        'timer',  
+        'timer',
+        'ngSanitize',
         'sticky', //side bar
         'masonry' //guestbook
     ])

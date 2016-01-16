@@ -144,6 +144,7 @@
     <Content Include="app\admin\adminService.js" />
     <Content Include="app\assets\css\zresponsive.css" />
     <Content Include="app\assets\img\braves.jpg" />
+    <Content Include="app\assets\img\britt.jpg" />
     <Content Include="app\assets\img\dogsgiving.jpg" />
     <Content Include="app\assets\img\gallery\slide %281%29.jpg" />
     <Content Include="app\assets\img\gallery\slide %2810%29.jpg" />
@@ -179,6 +180,7 @@
     <Content Include="app\assets\img\heart-icon.png" />
     <Content Include="app\assets\img\jaxlouie.jpg" />
     <Content Include="app\assets\img\marrymefull.jpg" />
+    <Content Include="app\assets\img\matt.jpg" />
     <Content Include="app\assets\img\slide1.jpg" />
     <Content Include="app\assets\img\slide2.jpg" />
     <Content Include="app\assets\img\slide3.jpg" />

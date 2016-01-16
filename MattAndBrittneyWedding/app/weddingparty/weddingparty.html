@@ -3,8 +3,44 @@
         <h1 class="HeaderText">Wedding Party</h1>
         <div class="MarginTop10 CHR"></div>
         <div class="CHR"></div>        
-        <h2 class="Frederick MarginTop20 RedText MarginBottom25">
-            Coming Soon!            
-        </h2>        
+        <div class="row MarginTop20">
+            <div class="col-md-6">
+                <img src="/app/assets/img/britt.jpg" class="img-circle CenterMargin img-responsive wp-bs" />
+                <div ng-repeat="bride in bridesmaids" class="MarginBottom50 MarginTop20">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="wp-bs CenterMargin img-circle" style="height:100px; width: 100px;">
+                                <span class="wp-cs">coming soon</span>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <b class="RedText">{{ bride.Name }}</b>
+                            <i class="SmallText">{{ bride.Role }}</i>
+                            <p class="MarginTop10">
+                                {{ bride.Desc }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 RCol20">
+                <img src="/app/assets/img/matt.jpg" class="img-circle CenterMargin img-responsive wp-bs" />
+                <div ng-repeat="groom in groomsmen" class="MarginBottom50 MarginTop20">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="wp-bs CenterMargin img-circle" style="height:100px; width: 100px;">
+                                <span class="wp-cs">coming soon</span>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <b class="RedText">{{ groom.Name }}</b>
+                            <i class="SmallText">{{ groom.Role }}</i>
+                            <p ng-bind-html="groom.Desc" class="MarginTop10">                             
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>      
     </div>
 </div>
