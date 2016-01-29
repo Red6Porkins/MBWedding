@@ -180,13 +180,16 @@
     <Content Include="app\assets\img\gallery\slide %289%29.jpg" />
     <Content Include="app\assets\img\hd-logo.png" />
     <Content Include="app\assets\img\heart-icon.png" />
+    <Content Include="app\assets\img\janelle.png" />
     <Content Include="app\assets\img\jaxlouie.jpg" />
     <Content Include="app\assets\img\jeff.jpg" />
     <Content Include="app\assets\img\jt.jpg" />
+    <Content Include="app\assets\img\katie.png" />
     <Content Include="app\assets\img\macys-logo.png" />
     <Content Include="app\assets\img\marrymefull.jpg" />
     <Content Include="app\assets\img\matt.jpg" />
     <Content Include="app\assets\img\nathan.jpg" />
+    <Content Include="app\assets\img\nikki.png" />
     <Content Include="app\assets\img\slide1.jpg" />
     <Content Include="app\assets\img\slide2.jpg" />
     <Content Include="app\assets\img\slide3.jpg" />

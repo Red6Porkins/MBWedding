@@ -4,10 +4,10 @@
 
 
         var Bridesmaids = new Array();
-        Bridesmaids.push({ Name: "Katie Cunningham", Role: "Matron Of Honor", Desc: "Katie and Brittney have been close friends and cousins since birth.  Family events were never dull with their constant shenanigans.  Forever will these princesses reign over the \"kids  table\"." });
-        Bridesmaids.push({ Name: "Janelle Markley", Role: "Bridesmaid", Desc: "Janelle and Brittney met while working in public accounting.  They became fast friends while working overtime in the trenches.  They currently work together at McKesson." });
+        Bridesmaids.push({ Name: "Katie Cunningham", Img: "/app/assets/img/katie.png", Role: "Matron Of Honor", Desc: "Katie and Brittney have been close friends and cousins since birth.  Family events were never dull with their constant shenanigans.  Forever will these princesses reign over the \"kids  table\"." });
+        Bridesmaids.push({ Name: "Janelle Markley", Img: "/app/assets/img/janelle.png", Role: "Bridesmaid", Desc: "Janelle and Brittney met while working in public accounting.  They became fast friends while working overtime in the trenches.  They currently work together at McKesson." });
         Bridesmaids.push({ Name: "Erin Medley", Img: "/app/assets/img/eb.jpg", Role: "Bridesmaid", Desc: "Erin and Brittney met in college as sorority sisters in Alpha Omicron Pi.  In 2014 they became roommates for a year in Sandy Springs, and the memories are certainly entertaining!" });
-        Bridesmaids.push({ Name: "Nikki Venturi", Role: "Bridesmaid", Desc: "Nikki and Brittney have been friends since birth.  They were next-door-neighbors until age 5 and kept in touch until reunited at Duluth High School where Nikki met her sweetheart, Bo.  Nikki and Brittney also had fun together in Statesboro, GA at Georgia Southern University." });
+        Bridesmaids.push({ Name: "Nikki Venturi", Img: "/app/assets/img/nikki.png", Role: "Bridesmaid", Desc: "Nikki and Brittney have been friends since birth.  They were next-door-neighbors until age 5 and kept in touch until reunited at Duluth High School where Nikki met her sweetheart, Bo.  Nikki and Brittney also had fun together in Statesboro, GA at Georgia Southern University." });
         Bridesmaids.push({ Name: "Rebecca Herad", Img: "/app/assets/img/brady-becky.jpg", Role: "Bridesmaid", Desc: "Rebecca and Brittney have been family now for over five years.  Rebecca married Brittney's brother, Brady, in 2010.  They live in Pensacola, FL." });
         $scope.bridesmaids = Bridesmaids;
 
