@@ -65,8 +65,21 @@ namespace MattAndBrittneyWedding.Services
                 msg.Bcc.Add(new MailAddress(Item.ToString()));
             }
 
-            var MailClient = new SmtpClient();            
-            MailClient.PickupDirectoryLocation = @"C:\inetpub\mailroot\Pickup";
+            //var MailClient = new SmtpClient();            
+            //MailClient.PickupDirectoryLocation = @"C:\inetpub\mailroot\Pickup";
+
+            var MailClient = new SmtpClient();
+            MailClient.Host = "smtp.1and1.com";
+            MailClient.Port = 587;
+            MailClient.EnableSsl = true;
+            MailClient.DeliveryMethod = SmtpDeliveryMethod.Network;
+
+            var Credentials = new NetworkCredential();
+            Credentials.UserName = "no-reply@mattandbrittney.com";
+            Credentials.Password = "dBc6%MGmm";
+
+            MailClient.UseDefaultCredentials = false;
+            MailClient.Credentials = Credentials;
 
             try
             {
