@@ -76,7 +76,7 @@ namespace MattAndBrittneyWedding.Services
 
             var Credentials = new NetworkCredential();
             Credentials.UserName = "no-reply@mattandbrittney.com";
-            Credentials.Password = "dBc6%MGmm";
+            Credentials.Password = "";
 
             MailClient.UseDefaultCredentials = false;
             MailClient.Credentials = Credentials;
