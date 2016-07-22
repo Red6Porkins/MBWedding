@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web;
 
@@ -15,6 +16,8 @@ namespace MattAndBrittneyWedding.Repository
             {
                 await Task.Run(() =>
                 {
+                    GuestBook.Message = Regex.Replace(GuestBook.Message, @"\p{Cs}", "");
+
                     var Query = @"insert into GuestBook (Message, Email, Name) values 
                                     (@Message, @Email, @Name)";
                     var Params = new { @Message = GuestBook.Message, @Email = GuestBook.Email, @Name = GuestBook.Name };

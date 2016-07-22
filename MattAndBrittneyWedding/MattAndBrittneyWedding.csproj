@@ -143,6 +143,7 @@
     <Content Include="app\admin\adminController.js" />
     <Content Include="app\admin\adminService.js" />
     <Content Include="app\assets\css\zresponsive.css" />
+    <Content Include="app\assets\img\amazonlogo.png" />
     <Content Include="app\assets\img\bbb-logo.png" />
     <Content Include="app\assets\img\brady-becky.jpg" />
     <Content Include="app\assets\img\braves.jpg" />
