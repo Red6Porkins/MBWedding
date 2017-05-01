@@ -69,13 +69,13 @@ namespace MattAndBrittneyWedding.Services
             //MailClient.PickupDirectoryLocation = @"C:\inetpub\mailroot\Pickup";
 
             var MailClient = new SmtpClient();
-            MailClient.Host = "smtp.1and1.com";
+            MailClient.Host = "email-smtp.us-east-1.amazonaws.com";
             MailClient.Port = 587;
             MailClient.EnableSsl = true;
             MailClient.DeliveryMethod = SmtpDeliveryMethod.Network;
 
             var Credentials = new NetworkCredential();
-            Credentials.UserName = "no-reply@mattandbrittney.com";
+            Credentials.UserName = "";
             Credentials.Password = "";
 
             MailClient.UseDefaultCredentials = false;
